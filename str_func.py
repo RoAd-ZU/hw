@@ -5,3 +5,8 @@ def change_line(line):
 def change_line_title(line):
     """docstring"""
     return line.title()
+
+
+line_u = input()
+print(change_line(line_u))
+print(change_line_title(line_u))
